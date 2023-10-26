@@ -1,0 +1,38 @@
+table {
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+.error {
+    background-color: #ffaaaa;
+    border-radius: 5px;
+    padding: 5px;
+    width: fit-content;
+}
+
+body {
+    padding-left: 10px;
+    /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+
+}
+
+summary {
+    padding: 5px;
+    border: 2px solid transparent;
+    outline: none;
+    background-color: #cfe9ff;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 40%;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+a:visited {
+    color: blue;
+}
